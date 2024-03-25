@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChageDetectionComponent } from './chage-detection.component';
+import { ChangeDetectionComponent } from './change-detection.component';
 
-describe('ChageDetectionComponent', () => {
-  let component: ChageDetectionComponent;
-  let fixture: ComponentFixture<ChageDetectionComponent>;
+describe('ChangeDetectionComponent', () => {
+  let component: ChangeDetectionComponent;
+  let fixture: ComponentFixture<ChangeDetectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ChageDetectionComponent]
+      imports: [ChangeDetectionComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ChageDetectionComponent);
+    fixture = TestBed.createComponent(ChangeDetectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
