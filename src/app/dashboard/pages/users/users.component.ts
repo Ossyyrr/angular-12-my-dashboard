@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
+import { TitleComponent } from '@shared/title/title.component';
+import { UsersService } from '../../../services/user.service';
 @Component({
   selector: 'app-users',
   standalone: true,
-  imports: [],
+  styleUrl: './users.component.css',
+  imports: [CommonModule, TitleComponent, RouterModule],
   templateUrl: './users.component.html',
-  styleUrl: './users.component.css'
 })
 export class UsersComponent {
-
+  public usersService = inject(UsersService);
 }
