@@ -4,9 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-view-transition',
   standalone: true,
   imports: [],
-  templateUrl: './view-transition.component.html',
-  styleUrl: './view-transition.component.css'
+  template: ` <div class="view-transition"></div> `,
 })
-export class ViewTransitionComponent {
-
-}
+export class ViewTransitionComponent {}
