@@ -6,7 +6,7 @@ import { TitleComponent } from '@shared/title/title.component';
   standalone: true,
   imports: [CommonModule, TitleComponent],
   template: `
-    <app-title title="View Transition 1" />
+    <app-title title="View Transition 2" />
 
     <section class="flex justify-end">
       <img
