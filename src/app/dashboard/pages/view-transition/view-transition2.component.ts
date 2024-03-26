@@ -15,7 +15,6 @@ import { TitleComponent } from '@shared/title/title.component';
         "
         alt="Picsum"
         width="200"
-        height="300"
         style="view-transition-name: hero1"
       />
 
